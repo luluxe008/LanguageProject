@@ -1,5 +1,5 @@
-#include "Lexer.hpp"
-#include "Errors.hpp"
+#include "../headers/Lexer.hpp"
+#include "../headers/Errors.hpp"
 #include <iostream>
 #include <ctype.h>
 using std::cout;

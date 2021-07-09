@@ -1,5 +1,5 @@
-#include "Errors.hpp"
-#include "Output.hpp"
+#include "../headers/Errors.hpp"
+#include "../headers/Output.hpp"
 #include <iostream>
 
 
