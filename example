@@ -1,4 +1,23 @@
-func main:
-	add 5
-	add 22
-end main	
+#some comments..
+
+func bar: #declare a "bar" function
+	add 5 #add 5 to the stack's top element
+	add 22 #same as up
+end main #end the "bar" function
+
+#everything is interpret, except function (or they must be call)
+
+:bar #call the "bar" function
+
+add 5 #add 5 to the stack's top element
+push 5 #add element at the stack's top
+cp #copy the element at the stack's top
+
+
+call :bar #call the "bar" function IF the stack's top element is greater than 0 or isn't a empty string
+
+cmp 2 2 #push 1 if 2 == 2, else, it will push 0
+
+stop #stop the program
+stop 2 #stop the program with this exit code
+

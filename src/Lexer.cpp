@@ -134,7 +134,7 @@ std::vector<Token> Lexer::make_tokens(){
 		
 		else if (_curr_char == ':'){
 			_tokens.push_back(Token{TokenType::COLON, std::string(":")});
-			advance();
+			//advance();
 		}
 		
 		else if (_curr_char == '\t'){// tab
