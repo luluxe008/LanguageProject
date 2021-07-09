@@ -1,0 +1,7 @@
+Instruction elementaire (comme des mots clef):
+add [element]          ---- l'elenent est soit un nombre entier (int) soit une chaine de caractere. Si l'element est un "int" alors il va etre ajouter a la stack<int> sinon il va etre ajouter a la
+		            stack<const string>.
+cpi  		       ---- l'element en haut de la stack<int> est copié.
+cps		       ---- l'element en haut de la stack<string> est copié.
+pause		       ---- le programme attend le nombre de milliseconde au sommet de la stack<int>
+stop		       ---- arrete le programme avec comme nombre de sortie la valeur au sommet de la stack<int>

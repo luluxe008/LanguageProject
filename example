@@ -1,0 +1,4 @@
+func main:
+	add 5
+	add 22
+end main	
